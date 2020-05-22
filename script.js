@@ -3,6 +3,7 @@ var Person = function(name, yearOfBirth, job){
 	this.yearOfBirth=yearOfBirth;
 	this.job=job;
 }
+//Creating Prototypes
 Person.prototype.cal=function(){
 		console.log(2020-this.yearOfBirth);
 	};
